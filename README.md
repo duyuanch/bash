@@ -148,3 +148,14 @@ find / -name 'filename' # 在根目录及子目录中查找文件
 
 
 
+# 苹果系统命令
+
+## 显示/隐藏 桌面文件图标
+
+``` bash
+defaults write com.apple.finder CreateDesktop false; killall Finder # 隐藏
+defaults write com.apple.finder CreateDesktop true; killall Finder # 显示
+```
+
+
+
